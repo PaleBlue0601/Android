@@ -1,0 +1,34 @@
+1.获取设备列表及设备状态
+adb devices
+
+2.设备状态 device(在线) offline(离线) unknown(未连接) 三种
+adb get-state
+
+3.结束adb服务
+ adb kill-server
+
+4.启动adb服务
+ adb start-server
+
+5.安装应用
+ adb install  //-r 覆盖安装，保留数据和缓存文件  -d 解决低版本version问题  -s 安装apk到sd卡
+
+6.卸载应用
+ adb uninstall
+
+7.重启Android设备
+       adb reboot
+
+8. 对某一模拟器执行命令：
+      abd -s 模拟器编号 命令
+
+9. 获取模拟器中的文件：
+      adb pull <remote> <local>
+10. 向模拟器中写文件：
+      adb push <local> <remote>
+
+11. 查看adb命令帮助信息：
+      adb help
+
+12. 获取管理员权限：
+      adb root

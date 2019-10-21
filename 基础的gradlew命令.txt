@@ -1,0 +1,17 @@
+gradlew clean //清除工程目录下的build文件夹
+
+gradlew -v //版本号
+
+gradlew build --info // 检查依赖并编译打包并打印日志
+
+gradlew dependencies --info //查看详细的依赖信息
+
+gradlew assembleDebug //编译并打Debug包
+
+gradlew assembleRelease //编译打release包
+
+gradlew app:installDebug //安装app
+
+gradlew app:installRelease //Release模式打包并安装
+
+gradlew app:uninstallDebug //卸载app
