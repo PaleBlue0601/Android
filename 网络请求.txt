@@ -1,0 +1,4 @@
+application中添加
+android:usesCleartextTraffic=“true”
+
+原因：Android 9.0是默认禁止所有http请求的，需要在代码中设置如以下代码才可以正常进行网络请求
