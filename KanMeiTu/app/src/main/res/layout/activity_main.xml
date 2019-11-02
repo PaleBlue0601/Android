@@ -14,4 +14,9 @@
         android:onClick="onLogoutClick"
         android:text="退出"/>
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
 </LinearLayout>
